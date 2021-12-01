@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2795903556926252489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4058180226418298410}
+  - component: {fileID: 6986514981755129574}
+  m_Layer: 0
+  m_Name: FireStaff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4058180226418298410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2795903556926252489}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6986514981755129574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2795903556926252489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061b07a390bbfe6439eafbc0cd292c31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _damage: 10
+  _skilllist:
+  - SpellPrifab: {fileID: 1631197453908524877, guid: 4ea75c78c2186c74da857dac11497bd0, type: 3}
+    PoolLimit: 10
+  - SpellPrifab: {fileID: 7645071191192603, guid: c1e0a575098a87c4db449154d4cb783a, type: 3}
+    PoolLimit: 1
+  - SpellPrifab: {fileID: 2761833620143472310, guid: f63cc9bea31726147b137de3b908a025, type: 3}
+    PoolLimit: 1
+  - SpellPrifab: {fileID: 3548236689993278009, guid: 8f34d0e40a739b84283fc77b6c512bbc, type: 3}
+    PoolLimit: 1

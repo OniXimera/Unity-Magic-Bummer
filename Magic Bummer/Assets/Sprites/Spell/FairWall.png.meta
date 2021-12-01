@@ -1,0 +1,768 @@
+fileFormatVersion: 2
+guid: dcb21b1d9b85e1044ada9bc09fc0cc87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7139980109705428775
+    second: FairWall_0
+  - first:
+      213: 6472471222995737392
+    second: FairWall_1
+  - first:
+      213: 3860162893662826094
+    second: FairWall_2
+  - first:
+      213: 3340446675847739454
+    second: FairWall_3
+  - first:
+      213: 7112348452858086541
+    second: FairWall_4
+  - first:
+      213: -8073213503071220365
+    second: FairWall_5
+  - first:
+      213: -376128484744117516
+    second: FairWall_6
+  - first:
+      213: -1910340439750805501
+    second: FairWall_7
+  - first:
+      213: -4479765965511198337
+    second: FairWall_8
+  - first:
+      213: 4576096793566111136
+    second: FairWall_9
+  - first:
+      213: -3047552268872568316
+    second: FairWall_10
+  - first:
+      213: -2361458310527637450
+    second: FairWall_11
+  - first:
+      213: -2575224014475185136
+    second: FairWall_12
+  - first:
+      213: -2037767374115110771
+    second: FairWall_13
+  - first:
+      213: 4131948066878535133
+    second: FairWall_14
+  - first:
+      213: -6073245201609247918
+    second: FairWall_15
+  - first:
+      213: 2221623950252373916
+    second: FairWall_16
+  - first:
+      213: 812951014046952482
+    second: FairWall_17
+  - first:
+      213: 2146044090339615860
+    second: FairWall_18
+  - first:
+      213: 4071093408401241103
+    second: FairWall_19
+  - first:
+      213: -4377064120474139121
+    second: FairWall_20
+  - first:
+      213: -1970124024215996361
+    second: FairWall_21
+  - first:
+      213: 2001425978586360982
+    second: FairWall_22
+  - first:
+      213: -4233827843942783693
+    second: FairWall_26
+  - first:
+      213: -8280139205257505516
+    second: FairWall_26
+  - first:
+      213: 6940798444214878228
+    second: FairWall_25
+  - first:
+      213: -3328423886032982426
+    second: FairWall_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FairWall_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 217
+        width: 18
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d047a16be1b9ec90800000000000000
+      internalID: -7139980109705428775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 217
+        width: 24
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b5991e846d2d950800000000000000
+      internalID: 6472471222995737392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 217
+        width: 26
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6eaae323bd029530800000000000000
+      internalID: 3860162893662826094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 217
+        width: 30
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38f901ad86ab5e20800000000000000
+      internalID: 3340446675847739454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 217
+        width: 36
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84c76b2c3324b260800000000000000
+      internalID: 7112348452858086541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_5
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 217
+        width: 38
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d8d89b71f26ff80800000000000000
+      internalID: -8073213503071220365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 217
+        width: 34
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2cbecc229b7caf0800000000000000
+      internalID: -376128484744117516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 217
+        width: 41
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308f690dd7b1d75e0800000000000000
+      internalID: -1910340439750805501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_8
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 217
+        width: 47
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79f1d4d69ca4d1c0800000000000000
+      internalID: -4479765965511198337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 217
+        width: 47
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5ef4ed9cf818f30800000000000000
+      internalID: 4576096793566111136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_10
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 217
+        width: 48
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4023a6bab5be4b5d0800000000000000
+      internalID: -3047552268872568316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_11
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 217
+        width: 48
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6382b199d2a6a3fd0800000000000000
+      internalID: -2361458310527637450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_12
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 217
+        width: 47
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014b6282767f24cd0800000000000000
+      internalID: -2575224014475185136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_13
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 217
+        width: 48
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d800dfaae5568b3e0800000000000000
+      internalID: -2037767374115110771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 106
+        width: 47
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd538a4ffd0a75930800000000000000
+      internalID: 4131948066878535133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 106
+        width: 49
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2533c34aaaf77bba0800000000000000
+      internalID: -6073245201609247918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 106
+        width: 48
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97fa4b463bc4de10800000000000000
+      internalID: 2221623950252373916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_17
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 106
+        width: 48
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cef0cd3ae284b00800000000000000
+      internalID: 812951014046952482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_18
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 106
+        width: 48
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474e40ddab748cd10800000000000000
+      internalID: 2146044090339615860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_19
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 106
+        width: 48
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04b037a2ed6f7830800000000000000
+      internalID: 4071093408401241103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_20
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 106
+        width: 48
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0608048f5b8143c0800000000000000
+      internalID: -4377064120474139121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_21
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 106
+        width: 48
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738742d53a6b8a4e0800000000000000
+      internalID: -1970124024215996361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_22
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 106
+        width: 48
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ce0e1d25e76cb10800000000000000
+      internalID: 2001425978586360982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_23
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 106
+        width: 48
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335e1a9f10c6e35c0800000000000000
+      internalID: -4233827843942783693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_24
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 106
+        width: 48
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41557db4349071d80800000000000000
+      internalID: -8280139205257505516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_25
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 48
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410030d396ba25060800000000000000
+      internalID: 6940798444214878228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairWall_26
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 48
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e24134c101fc1d0800000000000000
+      internalID: -3328423886032982426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
