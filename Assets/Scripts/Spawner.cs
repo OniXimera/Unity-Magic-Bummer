@@ -7,7 +7,7 @@ using TMPro;
 
 public class Spawner : MonoBehaviour
 {
-    //fix 05.12.2021
+    //fix 10.12.2021
     [Header("Parametor")]
     [SerializeField] private GameObject _pool;
     [SerializeField] private GameObject[] _barrierPrefab;
@@ -122,11 +122,11 @@ public class Spawner : MonoBehaviour
                 {
                     if (barers.activeSelf)
                     {
-                        Animator gfdgdf = barers.GetComponentsInChildren<Animator>()[0];
-                        gfdgdf.Play("Disable"); 
+                        barers.GetComponentsInChildren<Animator>()[0].Play("Disable"); 
                     }
                 }
             }
+            _text.text = "";
         }   
     }
 }

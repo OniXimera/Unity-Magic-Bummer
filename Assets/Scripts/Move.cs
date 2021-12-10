@@ -13,6 +13,7 @@ public class Move : MonoBehaviour
     private bool _isGrounded;
     private int _tipAttack;
     private int _jumpPoints;
+    private int _jumpPointsMax;
     private float _speed;
     private float _jumpForce;
     private float _inputX;
@@ -25,6 +26,7 @@ public class Move : MonoBehaviour
     {
         _speed = GetComponent<Player>().Speed;
         _jumpForce = GetComponent<Player>().JumpForce;
+        _jumpPoints = _jumpPointsMax = GetComponent<Player>().JumpPointsMax;
         _animator = GetComponent<Animator>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
@@ -104,7 +106,15 @@ public class Move : MonoBehaviour
     {
         if (_isGrounded)
         {
-            _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _jumpForce);
+            _jumpPoints = _jumpPointsMax;
+            Jump();
+        }
+        else if (_jumpPoints > 0)
+        {
+            _jumpPoints--;
+            _animator.SetBool("Jump", false);
+            //_animator.SetBool("Jump", true);
+            Jump();
         }
     }
     public void OnAction_1()
@@ -136,5 +146,10 @@ public class Move : MonoBehaviour
             _menuObject.SetActive(false);
         else
             _menuObject.SetActive(true);
+    }
+
+    private void Jump()
+    {
+        _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _jumpForce);
     }
 }

@@ -4,7 +4,7 @@ public class FollowCamera : MonoBehaviour
 {
     //fix 05.12.2021
     [SerializeField] private GameObject _target;
-    [SerializeField] private Vector3 _offset = new Vector3(4, 3, -10);
+    [SerializeField] private Vector3 _offset = new Vector3(3, 3, -10);
     [SerializeField] private AnimationCurve _cameraspeed;
 
     private bool _cameralook;

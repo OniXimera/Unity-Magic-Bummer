@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] private int _bonusPowerMax;
     [SerializeField] private float _speed;
     [SerializeField] private float _jumpForce;
+    [SerializeField] private int _jumpPointsMax;
     [Header("Character UI")]
     [SerializeField] private GameObject _gameOverScreen;
     [Header("Character Weapons")]
@@ -24,6 +25,7 @@ public class Player : MonoBehaviour
     public int WeaponsId => _weaponsId;
     public float Speed => _speed;
     public float JumpForce => _jumpForce;
+    public int JumpPointsMax => _jumpPointsMax;
 
     private int _health;
     private int _mana;
