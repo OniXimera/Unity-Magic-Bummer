@@ -4,7 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator), typeof(SpriteRenderer))]
 public class Move : MonoBehaviour
 {
-    //fix 05.12.2021
+    //fix 12.12.2021
     [Header("Move Parametr")]
     [SerializeField] private float _height;
     [Header("Menu")]
@@ -113,7 +113,6 @@ public class Move : MonoBehaviour
         {
             _jumpPoints--;
             _animator.SetBool("Jump", false);
-            //_animator.SetBool("Jump", true);
             Jump();
         }
     }
